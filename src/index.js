@@ -5,7 +5,7 @@ import App from './containers/App';
 
 // Redux 관련
 import { createStore } from 'redux';
-import reducers from './reducers';
+import reducers from './modules';
 // 리액트 앱과 스토어를 연동
 import { Provider } from 'react-redux';
 
